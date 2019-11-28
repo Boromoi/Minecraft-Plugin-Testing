@@ -24,7 +24,7 @@ public class SansCommand implements CommandExecutor {
         Player p = (Player) sender;
 
         if (p.hasPermission("sans.use")){
-            p.sendMessage("hi!");
+            p.sendMessage("Sans sniffes you.");
             return true;
         } else {
             p.sendMessage("You do not have permission to execute this command!");
