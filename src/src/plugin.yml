@@ -1,0 +1,10 @@
+name: Sans
+version: 1.0
+author: Burrito
+main: Sans.Main
+description: Sans sniffes his socks.
+
+commands:
+  sans:
+    aliases: [papyrus]
+    description: This is the sans command!
